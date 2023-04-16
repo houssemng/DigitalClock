@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: url("/images/cat.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  overflow: hidden;
+}
+
+.all{
+	height: 420px;
+}
+
+
+.all h2{
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.clock{
+	display: flex;
+}
+
+.clock div{
+	margin: 5px;
+	position: relative;
+}
+
+.clock span{
+	width: 120px;
+	height: 100px;
+	background-color: cyan;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	text-shadow: 2px 2px 4px rgba(0,0,0, 0.9);
+	border-radius: 20px;
+
+}
+
+.clock .text{
+	height: 30px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: wheat;
+	background: rgb(43, 171, 21);
+	font-weight: bold;
+}
+
+.clock #am-pm{
+	bottom: 0;
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	font-size: 20px;
+	color: wheat;
+	background: rgb(35, 99, 35);
+	border-radius: 20px;
+}
